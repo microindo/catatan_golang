@@ -23,6 +23,7 @@ func main() {
 
 ### Variasi Bare Code Lain
 Jika ingin program yang lebih minimal, kita bisa menghilangkan import package, Program ini akan tetap valid, namun tidak menjalankan apapun
+
 ``go
 package main
 
