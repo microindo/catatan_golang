@@ -2,7 +2,7 @@
 Bare Coda adalah code minimal yang harus ada untuk menjalankan program dengan golang.
 Pada Program minimum ini, setidaknya menjalankan fungsi main() yang menjadi titik awal eksekusi program
 
-``go
+```go
 package main
 
 import "fmt"
@@ -10,7 +10,7 @@ import "fmt"
 func main() {
     fmt.Println("Hello, World!")
 }
-``
+```
 
 ### Penjelasan
 | Syntax | Penjelasan |
@@ -24,13 +24,11 @@ func main() {
 ### Variasi Bare Code Lain
 Jika ingin program yang lebih minimal, kita bisa menghilangkan import package, Program ini akan tetap valid, namun tidak menjalankan apapun
 
-``go
-
+```go
 package main
 
 func main() {}
-
-``
+```
 
 ### Fungsi Utama dalam fmt
 Menampilkan Output ke Terminal (Console)
