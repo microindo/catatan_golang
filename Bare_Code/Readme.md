@@ -46,23 +46,27 @@ Membaca Input dari Pengguna
 | fmt.Scanf() | Membaca input dengan format tertentu. |
 
 ### Variasi penulsian package
+
 - **Import dengan tanda kurung**
-  ```go
+
+```go
 import (
     "fmt"
     "math"
     "strings"
 )
 ```
+
 ✅ Digunakan ketika mengimpor lebih dari satu package.
 ✅ Membantu meningkatkan keterbacaan kode.
 ✅ Lebih rapi dan direkomendasikan untuk proyek besar.
 
 - **Import tampa tanda kurung**
-- **Import dengan tanda kurung**
-  ```go
+
+```go
 import "fmt"
 ```
+
 ✅ Digunakan saat hanya mengimpor satu package.
 ✅ Lebih singkat dan sederhana.
 
