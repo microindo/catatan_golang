@@ -54,8 +54,16 @@ import (
     "strings"
 )
 ```
-- [x] Digunakan ketika mengimpor lebih dari satu package.
-- [x] Membantu meningkatkan keterbacaan kode.
+✅ Digunakan ketika mengimpor lebih dari satu package.
+✅ Membantu meningkatkan keterbacaan kode.
 ✅ Lebih rapi dan direkomendasikan untuk proyek besar.
+
+- **Import tampa tanda kurung**
+- **Import dengan tanda kurung**
+  ```go
+import "fmt"
+```
+✅ Digunakan saat hanya mengimpor satu package.
+✅ Lebih singkat dan sederhana.
 
 
