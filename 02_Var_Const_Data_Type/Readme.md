@@ -66,3 +66,31 @@ func main() {
 }
 ```
 
+# 🎯 Ringkasan Teknik Casting dalam Golang
+
+## 📌 Tabel Konversi Tipe Data
+
+| **Dari**     | **Ke**       | **Metode**                        | **Contoh**                          |
+|-------------|------------|---------------------------------|----------------------------------|
+| `int`       | `float64`  | `float64(n)`                   | `var x = float64(10)`           |
+| `float64`   | `int`      | `int(f)` (dibulatkan ke bawah)  | `var y = int(3.9) // Hasil: 3`  |
+| `string`    | `int`      | `strconv.Atoi(s)`              | `num, _ := strconv.Atoi("123")` |
+| `string`    | `float64`  | `strconv.ParseFloat(s, 64)`    | `f, _ := strconv.ParseFloat("3.14", 64)` |
+| `string`    | `bool`     | `strconv.ParseBool(s)`         | `b, _ := strconv.ParseBool("true")` |
+| `int`       | `string`   | `strconv.Itoa(n)`              | `str := strconv.Itoa(42)`       |
+| `float64`   | `string`   | `strconv.FormatFloat(f, 'f', 2, 64)` | `str := strconv.FormatFloat(3.14, 'f', 2, 64)` |
+| `bool`      | `string`   | `strconv.FormatBool(b)`        | `str := strconv.FormatBool(true)` |
+| `string`    | `[]byte`   | `[]byte(s)`                    | `bytes := []byte("Golang")`     |
+| `[]byte`    | `string`   | `string(b)`                    | `str := string([]byte{71, 111, 108})` |
+
+---
+
+## ✅ **Kesimpulan**
+- Golang **tidak mendukung implicit type conversion**, sehingga harus dilakukan secara **eksplisit**.  
+- Gunakan **casting bawaan** (`int()`, `float64()`, dll.) untuk tipe numerik.  
+- Gunakan **package `strconv`** untuk konversi antara string dan tipe lain.  
+- Konversi float ke integer akan **membuang angka desimal** (bukan dibulatkan).  
+
+🚀 **Semoga membantu!**
+
+
