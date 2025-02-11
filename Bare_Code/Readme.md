@@ -45,3 +45,17 @@ Membaca Input dari Pengguna
 | fmt.Scanln() | Membaca input sampai newline. |
 | fmt.Scanf() | Membaca input dengan format tertentu. |
 
+### Variasi penulsian package
+- **Import dengan tanda kurung**
+  ```go
+import (
+    "fmt"
+    "math"
+    "strings"
+)
+```
+- [x] Digunakan ketika mengimpor lebih dari satu package.
+- [x] Membantu meningkatkan keterbacaan kode.
+✅ Lebih rapi dan direkomendasikan untuk proyek besar.
+
+
