@@ -30,13 +30,14 @@ func main() {}
 ``
 
 ### Fungsi Utama dalam fmt
-- Menampilkan Output ke Terminal (Console)
+Menampilkan Output ke Terminal (Console)
 | Syntax | Penjelasan |
 |----------|--------|
 | fmt.Print() | Menampilkan teks tanpa newline. |
 | fmt.Println() | Menampilkan teks dengan newline otomatis. |
 | fmt.Printf() | Menampilkan teks dengan format tertentu. |
-- Membaca Input dari Pengguna
+
+Membaca Input dari Pengguna
 | Syntax | Penjelasan |
 |----------|--------|
 | fmt.Scan() |  Membaca input tanpa format khusus. |
