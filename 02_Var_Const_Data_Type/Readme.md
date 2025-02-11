@@ -11,4 +11,8 @@ var (nama, umur = "Ahmad", 25)	| Bisa deklarasi banyak variabel sekaligus |	var 
 # Deklarasi Konstanta
 Constant/konstanta adalah jenis variabel yang nilainya tidak bisa diubah. Inisialisasi nilai hanya dilakukan sekali di awal, setelah itu variabel tidak bisa diubah nilainya.
 
+```go
+const judul = "Ini Judul"
+```
+
 
